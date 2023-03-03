@@ -1,10 +1,16 @@
 import './paragrafo.css'
 
+const divStyle = {
+    color:'blue',
+    textTransform: 'uppercase',
+}
+
 const Paragrafo = ( props ) => {
     return (
-        <div className='texto'>
-            <h3>Texto Modificado</h3>
+        <div className='texto' style={divStyle}>
+            
             <p>{props.title}</p>
+
             {console.log(props)}
         </div>
         
@@ -13,8 +19,6 @@ const Paragrafo = ( props ) => {
 
 
 
-Paragrafo.defultProps = {
-    color: 'red'
-}
+
 
 export default Paragrafo
