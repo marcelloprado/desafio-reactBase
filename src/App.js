@@ -5,7 +5,6 @@ function App() {
   return (
     <>
       <Paragrafo title='A persistência leva a perfeição !!' />
-
     </>
   );
 }
